@@ -1,6 +1,6 @@
 # Portcode
 
-Repositório criado para organizar projetos acadêmicos e pessoais de Ciência da Computação.
+# Repositório criado para organizar projetos acadêmicos e pessoais de Ciência da Computação.
 
 ## 📁 Estrutura de Pastas:
 
