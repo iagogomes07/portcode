@@ -1,10 +1,9 @@
-def valor_absoluto(numero):
-    if numero >= 0:
-        return numero
+def modulo (a):
+    if a >= 0:
+        return a
     else:
-        return numero * -1
-
-
-numero = float(input("Digite um número: "))
-absoluto = valor_absoluto(numero)
-print(f"O valor absoluto é: {absoluto}")
+        return (a * -1)
+    
+a = float(input('Digite um valor:'))
+r = modulo(a)
+print(f'O modulo de {a} é {r}')

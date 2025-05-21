@@ -1,30 +1,26 @@
-def soma(a, b):
-    print(f"Resultado: {a + b}")
-
-def subtracao(a, b):
-    print(f"Resultado: {a - b}")
-
-def multiplicacao(a, b):
-    print(f"Resultado: {a * b}")
-
-def divisao(a, b):
+def supersayajin (a, b):
+    print(f'{a} + {b} = {a + b}')
+def subaton (a, b):
+    print(f'{a} - {b} = {a - b}')
+def menoth (a, b):
+    print(f'{a} x {b} = {a * b}')
+def danone (a, b):
     if b != 0:
-        print(f"Resultado: {a / b}")
+        print(f'{a} / {b} = {a / b}')
     else:
-        print("Erro: divisão por zero!")
+        print(f'como q joão vai dividir {a} bananas por {b} zé')
 
+a = float(input('digite o primeiro valor:'))
+b = float(input('digite o segundo valor:'))
+operra = str(input('\n(+)\n(-)\n(x)\n(/)\nescolha a operação:'))
 
-a = float(input("Digite o primeiro valor: "))
-operador = input("Digite a operação (+, -, x, /): ")
-b = float(input("Digite o segundo valor: "))
-
-if operador == '+':
-    soma(a, b)
-elif operador == '-':
-    subtracao(a, b)
-elif operador.lower() == 'x':
-    multiplicacao(a, b)
-elif operador == '/':
-    divisao(a, b)
+if operra == '+':
+    supersayajin(a, b)
+elif operra == '-':
+    subaton(a, b)
+elif operra == 'x':
+    menoth(a, b)
+elif operra == '/':
+    danone(a, b)
 else:
-    print("Operador inválido!")
+    print('escolhe um operador certo')

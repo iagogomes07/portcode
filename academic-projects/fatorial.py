@@ -1,15 +1,15 @@
-def fatorial(n):
-    if n < 0:
-        return None
-    resultado = 1
-    for i in range(1, n + 1):
-        resultado *= i
-    return resultado
+def fat(a):
+    r = 1
+    for i in range(1, a + 1):
+        r =  r * i
+    return r
+    
+a = int(input('insira um valor inteiro:'))
+r = fat(a)
 
-
-n = int(input("Digite um número inteiro para calcular o fatorial: "))
-resultado = fatorial(n)
-if resultado is not None:
-    print(f"{n}! = {resultado}")
+if a > 0: 
+    print (f'{a}! = {r}')
+elif a == 0:
+    print (f'{a}! = 1')  
 else:
-    print("Não é possível calcular fatorial de número negativo.")
+    print ('fatorial de numero negativo n existe')
